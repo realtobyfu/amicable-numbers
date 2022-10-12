@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Amicable Numbers</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Montserrat:wght@300;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+        
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+  <section>
+  <h1>Amicable numbers</h1>
+  <div>
+    <p id="amicable"></p>
+  </div>
+  <div>
+    <p id="factors-1"></p>
+    <p id="factors-2"></p>
+  </div>
+  </section>
+
+  <script type="text/javascript">
+    document.getElementById("amicable").innerHTML = ami;
+    document.getElementById("factors-1").innerHTML = "Factors of "+ first + ": " + arr1;
+    document.getElementById("factors-2").innerHTML = "Factors of "+ second + ": " + arr2;
+  </script>  
+</body>
+</html>
